@@ -1,13 +1,13 @@
+
 def find_divisor(m,n):
-    p = m
-    while m in range (1, n):
-        if n % (p) == 0 and m % (p) == 0:
+    x = m
+    while x in range (1, m):
+        if n%x == 0 and m%x == 0:
             break
         else:
-            p = m - 1
-    print("The greatest common divisor is " + str(p) + ".")
-    
-      
+            x = x - 1
+    print("The greatest common divisor is " + str(x) + ".")
+     
 
 n1 = int(input("Enter an integer: "))
 n2 = int(input("Enter another integer: "))
