@@ -1,10 +1,11 @@
 def find_divisor(m,n):
+    p = m
     while m in range (1, n):
-        if n % (m) == 0 and m % (m) == 0:
+        if n % (p) == 0 and m % (p) == 0:
             break
         else:
-            m = m - 1
-    print("The greatest common divisor is " + str(m) + ".")
+            p = m - 1
+    print("The greatest common divisor is " + str(p) + ".")
     
       
 
