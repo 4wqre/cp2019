@@ -10,11 +10,11 @@ def m_series(i):
 #table
 n = 1
 table = {}
-header1 = "#i"
+header1 = "i"
 header2 = "\t" + "m(i)"
 table[header1] = header2
 while n in range (0, 21):
-    num = "#" + str(n)
+    num = str(n)
     output = "\t" + "{0:.4f}".format(m_series(n))
     table[num] = output
     n = n + 1
