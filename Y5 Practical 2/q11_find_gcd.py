@@ -13,3 +13,5 @@ n2 = int(input("Enter another integer: "))
 
 if n1 < n2:
     find_divisor(n1,n2)
+else:
+    find_divisor(n2,n1)
