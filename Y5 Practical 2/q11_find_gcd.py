@@ -1,5 +1,5 @@
 def find_divisor(m,n):
-    while n in range (1, n):
+    while m in range (1, n):
         if n % (m) == 0 and m % (m) == 0:
             break
         else:
