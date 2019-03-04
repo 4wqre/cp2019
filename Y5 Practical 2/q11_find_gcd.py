@@ -1,7 +1,7 @@
 
 def find_divisor(m,n):
     x = m
-    while x in range (1, m):
+    while x in range (1, m+1):
         if n%x == 0 and m%x == 0:
             break
         else:
