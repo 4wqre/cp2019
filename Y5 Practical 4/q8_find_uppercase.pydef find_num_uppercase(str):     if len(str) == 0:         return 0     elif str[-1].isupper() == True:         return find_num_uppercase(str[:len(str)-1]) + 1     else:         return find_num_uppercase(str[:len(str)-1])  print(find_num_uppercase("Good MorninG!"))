@@ -1,0 +1,9 @@
+def find_num_uppercase(str):
+    if len(str) == 0:
+        return 0
+    elif str[-1].isupper() == True:
+        return find_num_uppercase(str[:len(str)-1]) + 1
+    else:
+        return find_num_uppercase(str[:len(str)-1])
+
+print(find_num_uppercase("Good MorninG!"))
